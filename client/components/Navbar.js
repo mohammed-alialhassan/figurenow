@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="hidden sm:block mx-auto py-8 sm:px-4 lg:px-32 lg:py-6 xl:py-4 bg-amber-200 shadow flex-row justify-around">
+      <div className="hidden sm:block mx-auto py-2 sm:px-4 lg:px-32 lg:py xl:py bg-amber-200 shadow flex-row justify-around">
         <div className="flex justify-between">
           <svg
             xmlns="http://www.w3.org/2000/svg"

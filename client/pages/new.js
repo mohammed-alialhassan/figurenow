@@ -32,6 +32,13 @@ export default function News() {
         </a>
       </div>
     </div>
+    <div className="overflow-hidden bg-white shadow sm:rounded-lg">
+        <div className="px-4 py-5 sm:p-6">
+        <div className="overflow-hidden bg-black shadow sm:rounded-lg">
+        <div className="px-4 py-5 sm:p-6">{/* Content goes here */}</div>
+      </div>
+        </div>
+      </div>
       
       </main>
       <footer>
