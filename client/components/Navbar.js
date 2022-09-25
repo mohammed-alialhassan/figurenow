@@ -48,7 +48,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="mx-auto py-8 sm:py-3 sm:px-4 lg:px-2 bg-green-700 shadow">
+      <div className="mx-auto py-2 sm:py-3 sm:px-4 lg:px-2 bg-green-700 shadow">
         <div className="sm:hidden block px-6 flex justify-between">
           <svg
             xmlns="http://www.w3.org/2000/svg"
