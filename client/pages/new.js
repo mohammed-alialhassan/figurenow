@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
 import LandingHero from "../components/LandingHero"
+import SecondaryHero from "../components/SecondaryHero"
 import { BoltIcon, GlobeAltIcon, ScaleIcon } from '@heroicons/react/24/outline'
 
 export default function News() {
@@ -95,7 +96,7 @@ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       </div>
     </div>
 
-
+<SecondaryHero />
     
 
 
