@@ -6,7 +6,7 @@ export default function LandingHero() {
   return (
     <div className="relative overflow-hidden min-h-96 md:min-h-full bg-white">
       <div className="mx-auto max-w-7xl">
-        <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-4xl lg:pb-28 xl:pb-52 2xl:pb-96">
+        <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-4xl lg:pb-28 xl:pb-36 2xl:pb-96">
           <svg
             className="absolute inset-y-0 right-0 hidden h-screen w-48 xl:w-96 translate-x-1/2 transform text-white lg:block"
             fill="currentColor"
