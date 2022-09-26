@@ -48,23 +48,20 @@ export default function LandingHero() {
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua.
               </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
-                  >
-                    Get started
-                  </a>
-                </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-200 px-8 py-3 text-base font-medium text-green-700 hover:bg-indigo-200 hover:text-indigo-700 md:py-4 md:px-10 md:text-lg"
-                  >
-                    Live demo
-                  </a>
-                </div>
+              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start lg:w-max">
+                <div>
+      <label htmlFor="search" className="block text-sm font-medium text-gray-700">
+        Quick search
+      </label>
+      <div className="relative mt-1 flex items-center">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          className="block w-full rounded-md border-gray-300 pr-12 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+        />
+      </div>
+    </div>
               </div>
             </div>
           </main>
