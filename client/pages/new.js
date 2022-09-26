@@ -31,7 +31,8 @@ export default function News() {
       <main>
         <Navbar />
 
-        <div className="relative min-h-screen sm:min-h-0 bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
+        <div className="relative min-h-screen pb-40  bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
+          
           <div className="absolute inset-0 overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1494597564530-871f2b93ac55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZpdG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
@@ -45,10 +46,10 @@ export default function News() {
           />
 
           <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl 2xl:text-7xl">
               WE plan while YOU transform
             </h2>
-            <p className="mt-3 text-xl text-white">
+            <p className="mt-3 text-xl 2xl:text-3xl text-white">
               We know dieting can be hard. We know how important it can be to
               shed those extra pounds right before summer. But, the journey is
               not easy and even harder when you don't have a plan. And that's
