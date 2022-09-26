@@ -4,7 +4,7 @@ export default function Footer() {
 
     return (
     <>
-        <div className="mx-auto py-4 sm:py-2 bg-green-700 shadow flex-column">
+        <div className="mx-auto py-4 sm:py-2 bg-green-600 shadow flex-column">
             <div className="mx-auto pb-2 sm:py-2 flex justify-center ">
                 <a href="/recipes" className="px-2 text-xs text-gray-50 hover:text-blue-400 sm:text-sm"> Recipes </a>
                 <a href="/exercises" className="px-2 text-xs text-gray-50 hover:text-blue-400  sm:text-sm"> Exercises </a>
