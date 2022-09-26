@@ -43,11 +43,11 @@ export default function News() {
       <div aria-hidden="true" className="absolute inset-0 bg-gray-900 bg-opacity-50" />
       
       <div className="relative mx-auto flex max-w-3xl flex-col items-center text-center">
-        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Long-term thinking</h2>
+        <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">WE plan while YOU transform</h2>
         <p className="mt-3 text-xl text-white">
-          We're committed to responsible, sustainable, and ethical manufacturing. Our small-scale approach allows us to
-          focus on quality and reduce our impact. We're doing our best to delay the inevitable heat-death of the
-          universe.
+          We know dieting can be hard. We know how important it can be to shed those extra pounds right before summer. 
+          But, the journey is not easy and even harder when you don't have a plan. And that's where we come in. 
+          Figurenow provides a personally tailored plan to helping our clients reach their ideal bodies and live healthier lifestyles!
         </p>
         <a
           href="#"
