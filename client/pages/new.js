@@ -35,7 +35,7 @@ export default function News() {
       <div className="relative min-h-screen sm:min-h-full bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
       <div className="absolute inset-0 overflow-hidden">
         <img
-          src="https://tailwindui.com/img/ecommerce-images/home-page-03-feature-section-full-width.jpg"
+          src="https://images.unsplash.com/photo-1494597564530-871f2b93ac55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZpdG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
           alt=""
           className="h-full w-full object-cover object-center"
         />
@@ -143,20 +143,6 @@ backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 
 <SecondaryHero />
 
-
-    
-
-
-    <div className="overflow-hidden bg-white shadow sm:rounded-lg">
-        <div className="px-4 py-5 sm:p-6">
-        <div className="overflow-hidden bg-black shadow sm:rounded-lg">
-        <div className="px-4 py-5 sm:p-6">{/* Content goes here */}
-        
-        <h2 className="text-white"> HELOOO</h2></div>
-      </div>
-        </div>
-      </div>
-      
       </main>
       <footer>
        <Footer /> 
