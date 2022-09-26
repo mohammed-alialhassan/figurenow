@@ -32,7 +32,7 @@ export default function Navbar() {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="w-16 h-16 stroke-green-700"
+            className="w-16 h-16 stroke-green-700 hover:stroke-white"
           >
             <path
               strokeLinecap="round"
@@ -43,7 +43,7 @@ export default function Navbar() {
           <div className="py-6 flex justify-between">
             <a
               href="/register"
-              className="text-green-700 font-semibold hover:text-amber-400"
+              className="text-green-700 font-semibold hover:text-white"
             >
               {" "}
               Get Started!
