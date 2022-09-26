@@ -1,7 +1,7 @@
 import React from "react";
-import { Fragment } from 'react'
-import { Menu, Transition } from '@headlessui/react'
-import { EllipsisVerticalIcon } from '@heroicons/react/20/solid'
+import { Fragment } from "react";
+import { Menu, Transition } from "@headlessui/react";
+import { EllipsisVerticalIcon } from "@heroicons/react/20/solid";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import image from "../public/logo.png";
 
@@ -68,83 +68,98 @@ export default function Navbar() {
             />
           </svg>
 
-          <h1 className="text-white pl-2 py-2 text-2xl font-bold"> Figurenow </h1>
+          <h1 className="text-white pl-2 py-2 text-2xl font-bold">
+            {" "}
+            Figurenow{" "}
+          </h1>
           <Menu as="div" className="relative inline-block text-left">
-      <div>
-        <Menu.Button className="flex items-center rounded-full text-gray-400 hover:text-gray-600 ">
-          <Bars3Icon className="w-10 h-10 stroke-gray-300 hover:stroke-amber-300" fill="none" aria-hidden="true" />
-        </Menu.Button>
-      </div>
+            <div>
+              <Menu.Button className="flex items-center rounded-full text-gray-400 hover:text-gray-600 ">
+                <Bars3Icon
+                  className="w-10 h-10 stroke-gray-300 hover:stroke-amber-300"
+                  fill="none"
+                  aria-hidden="true"
+                />
+              </Menu.Button>
+            </div>
 
-      <Transition
-        as={Fragment}
-        enter="transition ease-out duration-100"
-        enterFrom="transform opacity-0 scale-95"
-        enterTo="transform opacity-100 scale-100"
-        leave="transition ease-in duration-75"
-        leaveFrom="transform opacity-100 scale-100"
-        leaveTo="transform opacity-0 scale-95"
-      >
-        <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-          <div className="py-1">
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  About
-                </a>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Calorie Counter
-                </a>
-              )}
-            </Menu.Item>
-            <Menu.Item>
-              {({ active }) => (
-                <a
-                  href="#"
-                  className={classNames(
-                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                    'block px-4 py-2 text-sm'
-                  )}
-                >
-                  Recipes
-                </a>
-              )}
-            </Menu.Item>
-            <form method="POST" action="#">
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    type="submit"
-                    className={classNames(
-                      active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                      'block w-full px-4 py-2 text-left text-sm'
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
+            >
+              <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <div className="py-1">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        About
+                      </a>
                     )}
-                  >
-                    Contact Us
-                  </button>
-                )}
-              </Menu.Item>
-            </form>
-          </div>
-        </Menu.Items>
-      </Transition>
-    </Menu>
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Calorie Counter
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={classNames(
+                          active
+                            ? "bg-gray-100 text-gray-900"
+                            : "text-gray-700",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Recipes
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <form method="POST" action="#">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <button
+                          type="submit"
+                          className={classNames(
+                            active
+                              ? "bg-gray-100 text-gray-900"
+                              : "text-gray-700",
+                            "block w-full px-4 py-2 text-left text-sm"
+                          )}
+                        >
+                          Contact Us
+                        </button>
+                      )}
+                    </Menu.Item>
+                  </form>
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Menu>
         </div>
         <div className="hidden sm:ml-6 sm:block">
           <div className="flex justify-center space-x-12">
