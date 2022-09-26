@@ -174,12 +174,12 @@ export default function News() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center">
+          <div className="flex justify-center text-center">
             <button
               type="button"
-              className="inline-flex items-center pl-24 sm:pl-36 text-center h-16 w-96 sm:w-4/12 rounded border border-transparent bg-green-700 px-2.5 py-1.5 text-2xl font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              className="inline-flex items-center pl-24 sm:pl-36 text-center h-16 w-96 sm:w-4/12 xl:w-3/12 rounded border border-transparent bg-green-700 px-2.5 py-1.5 text-2xl font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
-              Get Started Today!
+             <h2> Get Started Today! </h2> 
             </button>
           </div>
         </div>
