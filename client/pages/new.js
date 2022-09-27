@@ -9,19 +9,19 @@ export default function News() {
     {
       name: "Maticulous Planning = Results",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "With real-time calculations, our plans are tailored around making almost every type of lifestyle healthier and happier.",
       icon: GlobeAltIcon,
     },
     {
       name: "Real time support 24/7",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "We have a dedicated staff available for help online or through our help line 24/7 for strong support at any given time.",
       icon: ScaleIcon,
     },
     {
       name: "Money Back Guarenteed",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+        "We have so much confidence in our product that any dissatifactory will warrant a money back guarenteed.",
       icon: BoltIcon,
     },
   ];
@@ -131,11 +131,14 @@ export default function News() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                Trusted by developers from over 80 planets
+                The recipe and blueprint for success
               </h2>
               <p className="mt-3 text-xl text-gray-500 sm:mt-4">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Repellendus repellat laudantium.
+                This breaks down the factor of how weight loss and body transformation is achieved. 
+                In any weight loss or muscle building journey: dieting is #1. It has to be. The body
+                needs the right amount of calories and macronutrients to achieve your goals. Exercise is #2.
+                Building strength and putting that to use as the body recovers. Both of these
+                done well will lead to that transformation you're looking And that's where we come in!
               </p>
             </div>
           </div>
@@ -147,26 +150,26 @@ export default function News() {
                   <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3 outline outline-1">
                     <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r hover:shadow-lg hover:shadow-black hover:outline hover:outline-2">
                       <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
-                        Pepperoni
+                        Dieting
                       </dt>
                       <dd className="order-1 text-5xl font-bold tracking-tight text-green-700">
-                        100%
+                        70%
                       </dd>
                     </div>
                     <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r hover:shadow-lg hover:shadow-black hover:outline hover:outline-2">
                       <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
-                        Delivery
+                        Exercise
                       </dt>
                       <dd className="order-1 text-5xl font-bold tracking-tight text-green-700">
-                        24/7
+                        30%
                       </dd>
                     </div>
                     <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l hover:shadow-lg hover:shadow-black hover:outline hover:outline-2">
                       <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
-                        Calories
+                        Effort
                       </dt>
                       <dd className="order-1 text-5xl font-bold tracking-tight text-green-700">
-                        100k
+                        100%
                       </dd>
                     </div>
                   </dl>
@@ -177,7 +180,7 @@ export default function News() {
           <div className="flex justify-center text-center">
             <button
               type="button"
-              className="inline-flex items-center pl-24 sm:pl-36 text-center h-16 w-96 sm:w-4/12 xl:w-3/12 rounded border border-transparent bg-green-700 px-2.5 py-1.5 text-2xl font-medium text-white shadow-sm outline outline-0 outline-black hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              className="inline-flex items-center pl-24 xl:pl-20 2xl:pl-36 text-center h-16 w-96 sm:w-4/12 xl:w-3/12 rounded border border-transparent bg-green-700 px-2.5 py-1.5 text-2xl font-medium text-white shadow-sm outline outline-0 outline-black hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
              <h2> Get Started Today! </h2> 
             </button>
