@@ -1,10 +1,11 @@
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import ContactUs from "./ContactUs";
 
 export default function SecondaryHero() {
   return (
-    <div className="relative overflow-hidden min-h-96 md:min-h-full bg-white">
+    <div className="relative overflow-hidden min-h-96 md:min-h-full md:max-h-screen bg-white">
       <div className="mx-auto max-w-7xl">
         <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-4xl lg:pb-28 xl:pb-36 2xl:pb-96">
           <svg
@@ -14,58 +15,14 @@ export default function SecondaryHero() {
             preserveAspectRatio="none"
             aria-hidden="true"
           >
-            <polygon points='100, 100 0, 500 0, 0 50, 0' />
+            <polygon points="100, 100 0, 500 0, 0 50, 0" />
           </svg>
 
           <div className="relative px-4 pt-6 sm:px-6 lg:px-8"></div>
 
-          <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-32">
+          <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-6 xl:mt-32">
             <div className="sm:text-center lg:text-left">
-              <div className="flex justify-center pb-6 md:justify-start md:pb-0">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="w-20 h-20 z-0"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M12 3v17.25m0 0c-1.472 0-2.882.265-4.185.75M12 20.25c1.472 0 2.882.265 4.185.75M18.75 4.97A48.416 48.416 0 0012 4.5c-2.291 0-4.545.16-6.75.47m13.5 0c1.01.143 2.01.317 3 .52m-3-.52l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.988 5.988 0 01-2.031.352 5.988 5.988 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L18.75 4.971zm-16.5.52c.99-.203 1.99-.377 3-.52m0 0l2.62 10.726c.122.499-.106 1.028-.589 1.202a5.989 5.989 0 01-2.031.352 5.989 5.989 0 01-2.031-.352c-.483-.174-.711-.703-.59-1.202L5.25 4.971z"
-                  />
-                </svg>
-              </div>
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block xl:inline">Data to enrich your</span>{" "}
-                <span className="block text-green-600 xl:inline">
-                  online business
-                </span>
-              </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua.
-              </p>
-              <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-                <div className="rounded-md shadow">
-                  <a
-                    href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg"
-                  >
-                    Get started
-                  </a>
-                </div>
-                <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a
-                    href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-200 px-8 py-3 text-base font-medium text-green-700 hover:bg-indigo-200 hover:text-indigo-700 md:py-4 md:px-10 md:text-lg"
-                  >
-                    Live demo
-                  </a>
-                </div>
-              </div>
+              <ContactUs />
             </div>
           </main>
         </div>
