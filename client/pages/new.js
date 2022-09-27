@@ -7,19 +7,19 @@ import { BoltIcon, GlobeAltIcon, ScaleIcon } from "@heroicons/react/24/outline";
 export default function News() {
   const features = [
     {
-      name: "Competitive exchange rates",
+      name: "Maticulous Planning = Results",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
       icon: GlobeAltIcon,
     },
     {
-      name: "No hidden fees",
+      name: "Real time support 24/7",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
       icon: ScaleIcon,
     },
     {
-      name: "Transfers are instant",
+      name: "Money Back Guarenteed",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
       icon: BoltIcon,
@@ -78,11 +78,11 @@ export default function News() {
             <div className="text-center">
               <h2 className="text-xl font-semibold text-green-700">Pricing</h2>
               <p className="mt-1 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
-                Take control of your team.
+                Get your dream figure today.
               </p>
               <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-                Start building for free, then add a site plan to go live.
-                Account plans unlock additional features.
+                Search through our plans and find the best one for you.
+                Once that's done, we further tailor and build around your goals.
               </p>
             </div>
 
@@ -144,7 +144,7 @@ export default function News() {
               <div className="absolute inset-0 h-1/2" />
               <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                 <div className="mx-auto max-w-4xl">
-                  <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
+                  <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3 outline outline-1">
                     <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r hover:shadow-lg hover:shadow-black hover:outline hover:outline-2">
                       <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">
                         Pepperoni
@@ -177,7 +177,7 @@ export default function News() {
           <div className="flex justify-center text-center">
             <button
               type="button"
-              className="inline-flex items-center pl-24 sm:pl-36 text-center h-16 w-96 sm:w-4/12 xl:w-3/12 rounded border border-transparent bg-green-700 px-2.5 py-1.5 text-2xl font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+              className="inline-flex items-center pl-24 sm:pl-36 text-center h-16 w-96 sm:w-4/12 xl:w-3/12 rounded border border-transparent bg-green-700 px-2.5 py-1.5 text-2xl font-medium text-white shadow-sm outline outline-0 outline-black hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
              <h2> Get Started Today! </h2> 
             </button>
