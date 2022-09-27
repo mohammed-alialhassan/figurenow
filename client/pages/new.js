@@ -133,7 +133,7 @@ export default function News() {
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 The recipe and blueprint for success
               </h2>
-              <p className="mt-3 text-xl text-gray-500 sm:mt-4">
+              <p className="mt-3 text-base sm:text-xl text-gray-500 sm:mt-4">
                 This breaks down the factor of how weight loss and body transformation is achieved. 
                 In any weight loss or muscle building journey: dieting is #1. It has to be. The body
                 needs the right amount of calories and macronutrients to achieve your goals. Exercise is #2.
