@@ -32,7 +32,6 @@ export default function News() {
         <Navbar />
 
         <div className="relative min-h-screen pb-40  bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
-          
           <div className="absolute inset-0 overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1494597564530-871f2b93ac55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZpdG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
@@ -76,13 +75,13 @@ export default function News() {
         >
           <div className="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8 2xl:pb-24 xl:min-h-screen">
             <div className="text-center">
-              <h2 className="text-xl font-semibold text-green-700">Pricing</h2>
+              <h2 className="text-xl font-semibold text-green-700">Inspire</h2>
               <p className="mt-1 text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl">
                 Get your dream figure today.
               </p>
               <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-                Search through our plans and find the best one for you.
-                Once that's done, we further tailor and build around your goals.
+                Search through our plans and find the best one for you. Once
+                that's done, we further tailor and build around your goals.
               </p>
             </div>
 
@@ -134,11 +133,14 @@ export default function News() {
                 The recipe and blueprint for success
               </h2>
               <p className="mt-3 text-base sm:text-xl text-gray-500 sm:mt-4">
-                This breaks down the factor of how weight loss and body transformation is achieved. 
-                In any weight loss or muscle building journey: dieting is #1. It has to be. The body
-                needs the right amount of calories and macronutrients to achieve your goals. Exercise is #2.
-                Building strength and putting that to use as the body recovers. Both of these
-                done well will lead to that transformation you're looking And that's where we come in!
+                This breaks down the factor of how weight loss and body
+                transformation is achieved. In any weight loss or muscle
+                building journey: dieting is #1. It has to be. The body needs
+                the right amount of calories. The right amount of
+                macronutrients. All to achieve your goals. Exercise is #2.
+                Building strength and putting that to use as the body recovers.
+                Both of these done well will lead to that transformation you're
+                looking And that's where we come in!
               </p>
             </div>
           </div>
@@ -177,12 +179,12 @@ export default function News() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center text-center">
+          <div className="pb-8 lg:pb-0 flex justify-center text-center">
             <button
               type="button"
               className="inline-flex items-center pl-24 xl:pl-20 2xl:pl-36 text-center h-16 w-96 sm:w-4/12 xl:w-3/12 rounded border border-transparent bg-green-700 px-2.5 py-1.5 text-2xl font-medium text-white shadow-sm outline outline-0 outline-black hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
-             <h2> Get Started Today! </h2> 
+              <h2> Get Started Today! </h2>
             </button>
           </div>
         </div>
