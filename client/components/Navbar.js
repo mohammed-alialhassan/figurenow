@@ -8,7 +8,7 @@ import image from "../public/logo.png";
 export default function Navbar() {
   const navigation = [
     { name: "About", href: "#", current: false },
-    { name: "Calorie Counter", href: "#", current: false },
+    { name: "Calorie Counter", href: "/calorie_counter", current: false },
     { name: "Recipes", href: "#", current: false },
     { name: "Contact Us", href: "#", current: false },
   ];
@@ -112,7 +112,7 @@ export default function Navbar() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="#"
+                        href="/calorie_counter"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
