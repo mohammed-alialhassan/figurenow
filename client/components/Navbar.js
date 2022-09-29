@@ -162,15 +162,15 @@ export default function Navbar() {
           </Menu>
         </div>
         <div className="hidden sm:ml-6 sm:block">
-          <div className="flex justify-center space-x-12">
+          <div className="flex justify-center space-x-12 lg:space-x-20 2xl:space-x-32">
             {navigation.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
                 className={classNames(
                   item.current
-                    ? "bg-gray-900 text-white"
-                    : "text-white hover:bg-gray-700 hover:text-white",
+                    ? "bg-gray-900 text-white "
+                    : "text-white 2xl:text-base hover:bg-gray-700 hover:text-white",
                   "px-3 py-2 rounded-md text-sm font-medium"
                 )}
                 aria-current={item.current ? "page" : undefined}
