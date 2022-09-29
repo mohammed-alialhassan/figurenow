@@ -26,22 +26,6 @@ export default function Step1({ stepCounter, setStepCounter }) {
               </div>
             </div>
           </div>
-          <div className="flex justify-center">
-            <div className="flex gap-x-3 justify-center lg:gap-x-0.5 w-8/12 lg:w-4/12 rounded bg-inherit">
-              <button
-                type="button"
-                className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
-              >
-                Back
-              </button>
-              <button
-                type="button"
-                className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
-              >
-                Next
-              </button>
-            </div>
-          </div>
         </>
     )
 }
