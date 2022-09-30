@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Step1 from "../components/calorieCounter/step1";
@@ -9,10 +9,16 @@ import Step4 from "../components/calorieCounter/step4";
 export default function CalorieCounter() {
 
     const [ counter, setCounter ] = useState(1);
+   // const [ info, setInfo ] = useState({});
+
+    /* useEffect(() => {
+        console.log(info)
+    },[info]) */
 
     // Function is called everytime increment button is clicked
   const handleClick1 = () => {
     // Counter state is incremented
+    if (counter !== 4 && counter < 4)
     setCounter(counter + 1)
   }
 
