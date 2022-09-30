@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 
-export default function Step1() {
-
+export default function Step1({maleGender, femaleGender}) {
+  
+// { maleGender, femaleGender }
   /* const handleClick1 = () => {
 
     let male = {"gender": "Male"};
