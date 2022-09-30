@@ -43,7 +43,7 @@ export default function Navbar() {
           <div className="py-6 flex justify-between">
             <a
               href="/register"
-              className="text-green-700 font-semibold hover:text-white"
+              className="text-green-700 2xl:text-base font-semibold hover:text-white"
             >
               {" "}
               Get Started!
@@ -170,7 +170,7 @@ export default function Navbar() {
                 className={classNames(
                   item.current
                     ? "bg-gray-900 text-white "
-                    : "text-white 2xl:text-base hover:bg-gray-700 hover:text-white",
+                    : "text-amber-400 lg:text-base 2xl:text-lg hover:text-white",
                   "px-3 py-2 rounded-md text-sm font-medium"
                 )}
                 aria-current={item.current ? "page" : undefined}
