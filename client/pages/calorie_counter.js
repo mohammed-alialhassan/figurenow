@@ -35,8 +35,9 @@ export default function CalorieCounter() {
 
   const maleGender = () => {
     setInfo({"gender": "Male"});
-    console.log(info)
+    
   }
+  console.log(info)
 
   const femaleGender = () => {
     setInfo({"gender": "Female"});
