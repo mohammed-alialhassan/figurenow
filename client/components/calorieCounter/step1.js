@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 
 
-export default function Step1() {
-
+export default function Step1({setGender}) {
+  
+// { maleGender, femaleGender }
   /* const handleClick1 = () => {
 
     let male = {"gender": "Male"};
@@ -11,15 +12,10 @@ export default function Step1() {
       ...male
     }))
 
-  }
-
-  const handleClick2 = () => {
-    let female = {"gender": "Female"};
-    setInfo(info => ({
-      ...info,
-      ...female
-    }))
   } */
+  
+  const male = "Male";
+  const female = "Female";
 
     return (
         <>
@@ -31,6 +27,7 @@ export default function Step1() {
               <div className="flex justify-between gap-x-4 w-9/12 2xl:w-8/12 py-4">
                 <button
                   type="button"
+                  onClick={() => setGender(male)}
                   className="inline-flex items-center rounded border border-transparent bg-green-200 px-12 py-3 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
                   
                 >
@@ -39,7 +36,7 @@ export default function Step1() {
                 <button
                   type="button"
                   className="inline-flex items-center rounded border border-transparent bg-green-200 px-12 py-3 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
-                  
+                  onClick={() => setGender(female)}
                 >
                   Female
                 </button>

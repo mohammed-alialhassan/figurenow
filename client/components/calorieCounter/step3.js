@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 
-export default function Step3() {
+export default function Step3({ setWeight }) {
+  const [ weight, settingWeight ] = useState(0);
+
+  console.log(weight)
+
   return (
     <>
       <div className="flex justify-center lg:py-2 text-3xl text-center lg:text-4xl text-white">
@@ -22,6 +26,8 @@ export default function Step3() {
                   type="weight"
                   name="weight"
                   id="weight"
+                  value={weight}
+                  onChange={(event) => {settingWeight(event.target.value); setWeight(weight)}}
                   className="block w-full py-1 lg:py-3 rounded-md border-red-300 pr-10 text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Pounds (lbs)"
                   aria-invalid="true"
