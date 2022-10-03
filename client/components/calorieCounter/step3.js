@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 
-export default function Step3({ setWeight }) {
+export default function Step3({ setWeight, settingHeight }) {
   const [ weight, settingWeight ] = useState(0);
+  const [ feet, setFeet ] = useState(0);
+  const [ inches, setInches ] = useState(0);
 
-  console.log(weight)
+  console.log(weight, feet, inches)
 
   return (
     <>
@@ -58,6 +60,8 @@ export default function Step3({ setWeight }) {
                   type="ft"
                   name="ft"
                   id="ft"
+                  value={feet}
+                  onChange={(event) => setFeet(event.target.value)}
                   className="block w-full py-1 lg:py-3  rounded-md border-red-300  text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Feet (ft)"
                   aria-invalid="true"
@@ -76,6 +80,7 @@ export default function Step3({ setWeight }) {
                   type="inch"
                   name="inch"
                   id="inch"
+                  onChange={(event) => {setInches(event.target.value); settingHeight(feet, inches)}}
                   className="block w-full py-1 lg:py-3  rounded-md border-red-300  text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Inches (in)"
                   aria-invalid="true"
