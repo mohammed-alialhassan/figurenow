@@ -2,16 +2,25 @@ import React, { useState } from "react";
 import { ExclamationCircleIcon } from "@heroicons/react/20/solid";
 
 export default function Step3({ setWeight, settingHeight }) {
-  const [ weight, settingWeight ] = useState(0);
-  const [ feet, setFeet ] = useState(0);
-  const [ inches, setInches ] = useState(0);
+  const [weight, settingWeight] = useState(0);
+  const [feet, setFeet] = useState(0);
+  const [inches, setInches] = useState(0);
 
-  console.log(weight, feet, inches)
+  console.log(weight, feet, inches);
 
   return (
     <>
-      <div className="flex justify-center lg:py-2 text-3xl text-center lg:text-4xl text-white">
+      <div className="flex justify-center py-2 lg:py-4 text-3xl text-center lg:text-4xl text-white">
         <h1> Please enter your weight down below </h1>
+      </div>
+      <div className="w-full bg-gray-200">
+        <div
+          className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-r-full"
+          style={{ width: "40%" }}
+        >
+          {" "}
+          40%
+        </div>
       </div>
       <div className="flex-col justify-center relative h-1/2 w-full py-16 lg:py-40 bg-gray-100 shadow-lg outline outline-1">
         <div className="flex justify-center">
@@ -29,7 +38,10 @@ export default function Step3({ setWeight, settingHeight }) {
                   name="weight"
                   id="weight"
                   value={weight}
-                  onChange={(event) => {settingWeight(event.target.value); setWeight(weight)}}
+                  onChange={(event) => {
+                    settingWeight(event.target.value);
+                    setWeight(weight);
+                  }}
                   className="block w-full py-1 lg:py-3 rounded-md border-red-300 pr-10 text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Pounds (lbs)"
                   aria-invalid="true"
@@ -56,45 +68,48 @@ export default function Step3({ setWeight, settingHeight }) {
               </label>
               <div className="flex gap-x-2 lg:w-10/12 justify-between">
                 <div className="relative mt-1  rounded-md shadow-sm">
-                <input
-                  type="ft"
-                  name="ft"
-                  id="ft"
-                  value={feet}
-                  onChange={(event) => setFeet(event.target.value)}
-                  className="block w-full py-1 lg:py-3  rounded-md border-red-300  text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="Feet (ft)"
-                  aria-invalid="true"
-                  aria-describedby="ft-error"
-                />
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-1">
-                  <ExclamationCircleIcon
-                    className="h-5 w-5 text-red-500"
-                    aria-hidden="true"
+                  <input
+                    type="ft"
+                    name="ft"
+                    id="ft"
+                    value={feet}
+                    onChange={(event) => setFeet(event.target.value)}
+                    className="block w-full py-1 lg:py-3  rounded-md border-red-300  text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
+                    placeholder="Feet (ft)"
+                    aria-invalid="true"
+                    aria-describedby="ft-error"
                   />
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-1">
+                    <ExclamationCircleIcon
+                      className="h-5 w-5 text-red-500"
+                      aria-hidden="true"
+                    />
+                  </div>
+                </div>
+
+                <div className="relative mt-1 rounded-md shadow-sm">
+                  <input
+                    type="inch"
+                    name="inch"
+                    id="inch"
+                    onChange={(event) => {
+                      setInches(event.target.value);
+                      settingHeight(feet, inches);
+                    }}
+                    className="block w-full py-1 lg:py-3  rounded-md border-red-300  text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
+                    placeholder="Inches (in)"
+                    aria-invalid="true"
+                    aria-describedby="inch-error"
+                  />
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-1">
+                    <ExclamationCircleIcon
+                      className="h-5 w-5 text-red-500"
+                      aria-hidden="true"
+                    />
+                  </div>
                 </div>
               </div>
 
-              <div className="relative mt-1 rounded-md shadow-sm">
-                <input
-                  type="inch"
-                  name="inch"
-                  id="inch"
-                  onChange={(event) => {setInches(event.target.value); settingHeight(feet, inches)}}
-                  className="block w-full py-1 lg:py-3  rounded-md border-red-300  text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
-                  placeholder="Inches (in)"
-                  aria-invalid="true"
-                  aria-describedby="inch-error"
-                />
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-1">
-                  <ExclamationCircleIcon
-                    className="h-5 w-5 text-red-500"
-                    aria-hidden="true"
-                  />
-                </div>
-              </div>
-              </div>
-              
               <p className="mt-2 text-sm text-red-600" id="weight-error">
                 You must enter a valid height.
               </p>
