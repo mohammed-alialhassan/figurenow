@@ -17,7 +17,7 @@ export default function CalorieCounter() {
     // Function is called everytime increment button is clicked
   const handleClick1 = () => {
     // Counter state is incremented
-    if (counter !== 4 && counter < 4)
+    if (counter !== 5 && counter < 5)
     setCounter(counter + 1)
   }
 
@@ -51,7 +51,7 @@ export default function CalorieCounter() {
     let feet = value;
     let inches = value2
     let cm = (feet + (inches / 10)) * 30.48;
-    settingWeight({"height": cm/ 10})
+    setHeight({"height": cm/ 10})
   }
 
   console.log(info, age, weight, height)

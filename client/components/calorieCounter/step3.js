@@ -11,7 +11,7 @@ export default function Step3({ setWeight, settingHeight }) {
   return (
     <>
       <div className="flex justify-center lg:py-2 text-3xl text-center lg:text-4xl text-white">
-        <h1> Please enter your weight and height down below </h1>
+        <h1> Please enter your weight down below </h1>
       </div>
       <div className="flex-col justify-center relative h-1/2 w-full py-16 lg:py-40 bg-gray-100 shadow-lg outline outline-1">
         <div className="flex justify-center">
