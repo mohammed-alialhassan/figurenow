@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 
 
-export default function Step5() {
+export default function Step5({ settingGoal }) {
+
+    let loseWeight = 0.9;
+    let buildMuscle = 1.5;
+    let transform = 1.2;
 
     return (
         <>
@@ -18,13 +22,13 @@ export default function Step5() {
             <div className="flex justify-center">
               <div className="flex justify-between gap-x-4 w-11/12 2xl:w-10/12 py-4">
               <div className="flex-col justify-center rounded border border-transparent bg-green-200 px-3 py-4 lg:px-12 lg:py-4 text-sm lg:text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2">
-                <img src="https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" />
+                <img src="https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" onClick={() => settingGoal(loseWeight)}  />
                 </div>
                 <div className="inline-flex items-center rounded border border-transparent bg-green-200 px-3 py-4 lg:px-12 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2">
-                <img src="https://images.unsplash.com/photo-1532384661798-58b53a4fbe37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" />
+                <img src="https://images.unsplash.com/photo-1532384661798-58b53a4fbe37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" onClick={() => settingGoal(buildMuscle)} />
                 </div>
                 <div className="inline-flex items-center rounded border border-transparent bg-green-200 px-3 py-4 lg:px-12 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2">
-                <img src="https://images.unsplash.com/photo-1575052814074-c05122e0a17a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" />
+                <img src="https://images.unsplash.com/photo-1575052814074-c05122e0a17a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" onClick={() => settingGoal(transform)} />
                 </div>
               </div>
             </div>
