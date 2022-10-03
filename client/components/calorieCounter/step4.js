@@ -1,31 +1,70 @@
 import React, { useState } from "react";
 
 
-export default function Step4() {
+export default function step4({settingActiveRate}) {
+
+
+  let stationary = 1.075;
+  let sedentary = 1.2;
+  let lightlyActive = 1.375;
+  let moderatelyActive = 1.55;
+  let veryActive = 1.725;
+  let extremelyActive = 1.9;
 
     return (
         <>
             <div className="flex justify-center lg:py-2 text-3xl text-center lg:text-4xl text-white">
-            <h1> What is your main goal? </h1>
+            <h1> How active is your daily life? </h1>
           </div>
-          
-          <div className="flex-col justify-center relative h-1/2 w-full py-16 lg:py-36 bg-gray-100 shadow-lg outline outline-1">
-            <div className="flex justify-between gap-x-4 lg:gap-x-2 w-12/12 2xl:w-10/12 py-2 px-5  lg:px-32 lg:pr-36 2xl:pr-2">
-                    <h1 className="text-lg lg:text-3xl"> Lose weight </h1>
-                    <h1 className="text-lg lg:text-3xl"> Build muscle </h1>
-                    <h1 className="text-lg lg:text-3xl"> Transform! </h1>
-                </div>
-            <div className="flex justify-center">
-              <div className="flex justify-between gap-x-4 w-11/12 2xl:w-10/12 py-4">
-              <div className="flex-col justify-center rounded border border-transparent bg-green-200 px-3 py-4 lg:px-12 lg:py-4 text-sm lg:text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2">
-                <img src="https://images.unsplash.com/photo-1638183395699-2c0db5b6afbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" />
-                </div>
-                <div className="inline-flex items-center rounded border border-transparent bg-green-200 px-3 py-4 lg:px-12 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2">
-                <img src="https://images.unsplash.com/photo-1532384661798-58b53a4fbe37?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" />
-                </div>
-                <div className="inline-flex items-center rounded border border-transparent bg-green-200 px-3 py-4 lg:px-12 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2">
-                <img src="https://images.unsplash.com/photo-1575052814074-c05122e0a17a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" className="w-full h-16 lg:h-32 lg:w-96" />
-                </div>
+          <div className="flex-col justify-center relative h-1/2 w-full py-8 lg:py-28 bg-gray-100 shadow-lg outline outline-1">
+            <div className="flex justify-around">
+            <div className="flex justify-between gap-x-4 w-full px-3 lg:px-0 lg:w-9/12 pt-4">
+                <button
+                  type="button"
+                  className="inline-flex items-center rounded border border-transparent bg-green-200 px-5 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  onClick={() => settingActiveRate(stationary)}
+                >
+                  Stationary
+                </button>
+                <button
+                  type="button"
+                  className="inline-flex items-center rounded border border-transparent bg-green-200 px-5 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  onClick={() => settingActiveRate(sedentary)}
+                >
+                  Sedentary 
+                </button>
+                <button
+                  type="button"
+                  className="inline-flex items-center rounded border border-transparent bg-green-200 px-5 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  onClick={() => settingActiveRate(lightlyActive)}
+                >
+                  Lightly
+                </button>
+              </div>
+            </div>
+            <div className="flex justify-around">
+            <div className="flex justify-between gap-x-4 w-full px-3 lg:px-0 lg:w-9/12 pt-12">
+                <button
+                  type="button"
+                  className="inline-flex items-center rounded border border-transparent bg-green-200 px-5 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  onClick={() => settingActiveRate(moderatelyActive)}
+                >
+                  Moderately
+                </button>
+                <button
+                  type="button"
+                  className="inline-flex items-center rounded border border-transparent bg-green-200 px-8 py-2 lg:px-28 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  onClick={() => settingActiveRate(veryActive)}
+                >
+                  Very
+                </button>
+                <button
+                  type="button"
+                  className="inline-flex items-center rounded border border-transparent bg-green-200 px-2 py-2 lg:px-20 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  onClick={() => settingActiveRate(extremelyActive)}
+                >
+                  Extremely
+                </button>
               </div>
             </div>
           </div>
