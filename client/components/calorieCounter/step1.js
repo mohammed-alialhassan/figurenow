@@ -1,16 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Step1({ setGender }) {
-  // { maleGender, femaleGender }
-  /* const handleClick1 = () => {
-
-    let male = {"gender": "Male"};
-    setInfo(info => ({
-      ...info,
-      ...male
-    }))
-
-  } */
 
   const male = "Male";
   const female = "Female";
@@ -52,5 +42,3 @@ export default function Step1({ setGender }) {
     </>
   );
 }
-//onClick={handleClick1()}
-//onClick={handleClick2()}
