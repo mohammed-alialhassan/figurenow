@@ -43,7 +43,7 @@ export default function Navbar() {
 
           >
             
-              <a classname="">
+              <a>
               <path
               strokeLinecap="round"
               strokeLinejoin="round"

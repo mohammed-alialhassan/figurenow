@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 export default function Step5({ settingGoal }) {
-  let loseWeight = 0.7;
+  let loseWeight = 0.8;
   let buildMuscle = 1.1;
-  let transform = 0.9;
+  let transform = 0.95;
 
   return (
     <>
