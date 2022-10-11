@@ -14,8 +14,8 @@ export default function MacronutrientHero() {
                   <span className="block">The OTHER numbers you should know about!</span>
                 </h2>
                 <p className="mt-4 text-lg leading-6 text-gray-200">
-                  Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla
-                  nec.
+                  Macronutrients are the nutrients 
+                  we need in larger quantities that provide us with energy. And there are 3 groups of them that we will break down: Carbs, proteins and fats.
                 </p>
                 <a
                   href="#"
@@ -25,10 +25,10 @@ export default function MacronutrientHero() {
                 </a>
               </div>
             </div>
-            <div className="aspect-w-5 aspect-h-3 -mt-6 md:aspect-w-2 md:aspect-h-1">
+            <div className="aspect-w-5 aspect-h-3 -mt-6 pb-6 md:pb-0  md:aspect-w-2 md:pr-6 md:aspect-h-1">
               <img
                 className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
-                src="https://tailwindui.com/img/component-images/full-width-with-sidebar.jpg"
+                src="https://i.imgur.com/LxKHtz4.png"
                 alt="App screenshot"
               />
             </div>
