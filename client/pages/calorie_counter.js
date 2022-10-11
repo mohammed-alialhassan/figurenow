@@ -8,6 +8,7 @@ import Step4 from "../components/calorieCounter/step4";
 import Step5 from "../components/calorieCounter/step5";
 import Loading from "../components/calorieCounter/loading";
 import CalorieDisplay from "../components/calorieCounter/calorieDisplay";
+import MacronutrientHero from "../components/macronutrientHero";
 
 export default function CalorieCounter() {
 
@@ -132,7 +133,12 @@ export default function CalorieCounter() {
               </button>
             </div>
           </div>
+          
         </div>
+        {counter === 6 & !loading? (
+            <MacronutrientHero />
+          
+          ) : (null)}
       </main>
       <footer>
         <Footer />
