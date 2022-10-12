@@ -7,7 +7,7 @@ export default function Loading({info, age, weight, height, activeRate, goal, se
   return (
     <>
       <div className="flex justify-center py-2 lg:py-4 text-3xl text-center lg:text-4xl text-white">
-        <h1> Target calories being targeted! {info.gender} </h1>
+        <h1> Target calories being targeted!</h1>
       </div>
       <div className="w-full bg-gray-200">
         <div

@@ -26,7 +26,7 @@ export default function CalorieDisplay({info, age, weight, height, activeRate, g
           <h2 className="text-3xl font-bold tracking-tight pt-6 text-gray-900 sm:text-4xl">
             Numbers Don't Lie.
           </h2>
-          <p className="mt-3 text-xl text-gray-500 sm:mt-2">
+          <p className="mt-3 text-xl text-gray-600 sm:mt-2">
             And these numbers are no exception! These numbers will give you insight to the target calories 
             you want to aim for each day, along with remind you of your current weight and fitness goal.
           </p>
