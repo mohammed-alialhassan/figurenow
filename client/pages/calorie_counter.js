@@ -136,7 +136,7 @@ export default function CalorieCounter() {
           
         </div>
         {counter === 6 & !loading? (
-            <MacronutrientHero />
+            <MacronutrientHero weight={weight} />
           
           ) : (null)}
       </main>
