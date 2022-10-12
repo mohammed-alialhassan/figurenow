@@ -54,6 +54,7 @@ export default function Navbar() {
           </Link>
           
           <div className="py-6 flex justify-between">
+            <Link href="/calorie_counter">
             <a
               href="/register"
               className="text-green-700 2xl:text-base font-semibold hover:text-white"
@@ -61,6 +62,7 @@ export default function Navbar() {
               {" "}
               Get Started!
             </a>
+            </Link>
           </div>
         </div>
       </div>
