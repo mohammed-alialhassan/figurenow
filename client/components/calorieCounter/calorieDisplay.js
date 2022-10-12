@@ -40,15 +40,15 @@ export default function CalorieDisplay({info, age, weight, height, activeRate, g
               <dl className="rounded-lg bg-white shadow-lg sm:grid sm:grid-cols-3">
                 <div className="flex flex-col border-b border-gray-100 p-6 text-center sm:border-0 sm:border-r">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Main Goal</dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">{goal.goal === 0.8? (<dd className="text-4xl pt-2">Lose Weight</dd>) : goal.goal === 0.95? (<dd className="text-4xl pt-2">Transform!</dd>) : goal.goal === 1.1? (<dd className="text-4xl pt-2">Build Muscle</dd>) :  (<h2> No target goal</h2>)}</dd>
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-green-500">{goal.goal === 0.8? (<dd className="text-4xl pt-2">Lose Weight</dd>) : goal.goal === 0.95? (<dd className="text-4xl pt-2">Transform!</dd>) : goal.goal === 1.1? (<dd className="text-4xl pt-2">Build Muscle</dd>) :  (<h2> No target goal</h2>)}</dd>
                 </div>
                 <div className="flex flex-col border-t border-b border-gray-100 p-6 text-center sm:border-0 sm:border-l sm:border-r">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Daily Target Calories</dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">{targetCalories}</dd>
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-green-500">{targetCalories}</dd>
                 </div>
                 <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
                   <dt className="order-2 mt-2 text-lg font-medium leading-6 text-gray-500">Current Weight</dt>
-                  <dd className="order-1 text-5xl font-bold tracking-tight text-indigo-600">{displayWeight} lbs</dd>
+                  <dd className="order-1 text-5xl font-bold tracking-tight text-green-500">{displayWeight} lbs</dd>
                 </div>
               </dl>
             </div>
