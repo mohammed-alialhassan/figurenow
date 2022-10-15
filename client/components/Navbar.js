@@ -12,16 +12,11 @@ export default function Navbar() {
   const router = useRouter(); 
 
   const navigation = [
-    { name: "About", href: "#", current: false },
+    { name: "About", href: "/about", current: false },
     { name: "Calorie Counter", href: "/calorie_counter", current: false },
-    { name: "Recipes", href: "#", current: false },
+    { name: "Recipes", href: "/recipes", current: false },
     { name: "Contact Us", href: "#", current: false },
   ];
-
-  /* function handleClick(item) {
-
-        item.current = true;
-      } */
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
@@ -111,8 +106,8 @@ export default function Navbar() {
                 <div className="py-1">
                   <Menu.Item>
                     {({ active }) => (
+                      <Link href="/about">
                       <a
-                        href="#"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -122,12 +117,13 @@ export default function Navbar() {
                       >
                         About
                       </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
+                      <Link href="/calorie_counter">
                       <a
-                        href="/calorie_counter"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -137,6 +133,7 @@ export default function Navbar() {
                       >
                         Calorie Counter
                       </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <Menu.Item>
@@ -185,7 +182,7 @@ export default function Navbar() {
                 className={classNames(
                   item.current
                     ? "bg-gray-900 text-white "
-                    : "text-amber-400 lg:text-base 2xl:text-lg hover:text-white",
+                    : "text-white lg:text-base 2xl:text-lg hover:text-white",
                   "px-3 py-2 rounded-md text-sm font-medium"
                 )}
                 aria-current={item.current ? "page" : undefined}
