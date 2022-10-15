@@ -61,12 +61,13 @@ export default function News() {
               helping our clients reach their ideal bodies and live healthier
               lifestyles!
             </p>
+            <Link href="/about">
             <a
-              href="#"
               className="mt-8 block w-full rounded-md border border-transparent bg-white py-3 px-8 text-base font-medium text-gray-900 hover:bg-gray-100 sm:w-auto"
             >
               Read our story
             </a>
+            </Link>
           </div>
         </div>
 
