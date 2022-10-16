@@ -49,42 +49,46 @@ export default function About() {
           </div>
           <div className="mt-8 lg:mt-0">
             <div className="mx-auto max-w-prose text-base lg:max-w-none">
-              <p className="text-lg text-gray-500">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+              <p className="text-lg text-gray-400">
+                It all really started for me when I was in grade 10. I knew a few people
+                who were in great shape from constantly being involved in team sports that 
+                kept them well rounded and feeling great. The rest would gym or find some type
+                of way to keep in shape.
               </p>
             </div>
-            <div className="prose prose-indigo mx-auto mt-5 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+            <div className="prose prose-indigo mx-auto mt-5 text-gray-400 lg:col-start-1 lg:row-start-1 lg:max-w-none">
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna.
+                Then there was me. The funds were not there to get involved in League-ran team sports. I didn't 
+                get out much and going for runs was not something I felt comfortable doing. So I was stuck, and
+                unhappy with how I looked. All I know is I wanted change.
               </p>
               <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique sit nisi lorem pulvinar. Urna, laoreet
-                fusce nibh leo. Dictum et et et sit. Faucibus sed non gravida lectus dignissim imperdiet a.
+                And joining the Football team that year was the start of it. It got me out and involved. And that 
+                led me to connecting with like-minded people who were also looking to 180 themselves. And that led
+                me to joining the gym at our local community centre.
               </p>
               <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem arcu, metus, egestas netus cursus. In.
+                As crazy as it is, that 2 by 4 meters nurtured us and created a fire that would only grow bigger.
               </p>
               <ul role="list">
-                <li>Quis elit egestas venenatis mattis dignissim.</li>
-                <li>Cras cras lobortis vitae vivamus ultricies facilisis tempus.</li>
-                <li>Orci in sit morbi dignissim metus diam arcu pretium.</li>
+                <li>I then made the switch to GoodLife and started to go to the Fitness center at school.</li>
+                <li>That was followed with learning my personal target numbers and meal planning.</li>
+                <li>That led me to looking and feeling the best I have in my life.</li>
               </ul>
               <p>
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+                And now I want to share my journey along with my expertise with the world.
+                I hope that sharing the obstacles I went to and how I overcame them in hopes 
+                that it may make this journey easier for you.
               </p>
               <h3>How we helped</h3>
               <p>
-                Tincidunt integer commodo, cursus etiam aliquam neque, et. Consectetur pretium in volutpat, diam.
-                Montes, magna cursus nulla feugiat dignissim id lobortis amet. Laoreet sem est phasellus eu proin massa,
-                lectus. Diam rutrum posuere donec ultricies non morbi. Mi a platea auctor mi.
+                I've designed this app based on the feedback and positives I've received from both
+                people in my circle and outside sources. It's designed to not only give you accurate
+                numbers but also educate you. We teach you, and you share that knowledge with whoever
+                is willing to hear.
               </p>
               <p>
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi.
+                Because why play the game without the instructions and knowing what buttons work right?
               </p>
             </div>
           </div>
@@ -121,7 +125,7 @@ export default function About() {
                   </div>
 
                   <footer className="mt-4">
-                    <p className="text-base font-semibold text-amber-500">Ali Al-Hassan, Creator of Figurenow</p>
+                    <p className="text-base font-semibold text-amber-400">Ali Al-Hassan, Creator of Figurenow</p>
                   </footer>
                 </blockquote>
               </div>
@@ -135,22 +139,21 @@ export default function About() {
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               On a mission to empower change
             </h2>
-            <div className="mt-6 space-y-6 text-gray-500">
+            <div className="mt-6 space-y-6 text-gray-400">
               <p className="text-lg">
-                Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique
-                pellentesque. Blandit amet, sed aenean erat arcu morbi. Cursus faucibus nunc nisl netus morbi vel
-                porttitor vitae ut. Amet vitae fames senectus vitae.
+                Change is something we all need in some form. But, as much as we can acknowledge we need
+                change, the steps needed to bring it is sometimes not as simple. Whether that be because
+                our daily life or things out of our control, we need to make change happen.
               </p>
               <p className="text-base leading-7">
-                Sollicitudin tristique eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget
-                pretium arcu vitae. Eros eu viverra donec ut volutpat donec laoreet quam urna. Sollicitudin tristique
-                eros erat odio sed vitae, consequat turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros eu
-                viverra donec ut volutpat donec laoreet quam urna.
+                And that's where Figurenow comes in! Our goal is to make bringing that change as EASY 
+                and SIMPLE as possible. By providing pinpoint accurate numbers, pulling from multiple resources,
+                and 24/7 support. Our goal is to help you change your appearance, lifestyle, and feel on life!
               </p>
               <p className="text-base leading-7">
-                Rhoncus nisl, libero egestas diam fermentum dui. At quis tincidunt vel ultricies. Vulputate aliquet
-                velit faucibus semper. Pellentesque in venenatis vestibulum consectetur nibh id. In id ut tempus
-                egestas. Enim sit aliquam nec, a. Morbi enim fermentum lacus in. Viverra.
+                From the 1st day, we'll track progress and monitor growth overtime and where
+                improvements can be made. Forget the idea of having a summer body and be ready
+                to walk around in your yearly body!
               </p>
             </div>
           </div>

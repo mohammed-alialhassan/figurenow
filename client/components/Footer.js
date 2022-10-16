@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <div className="mx-auto py-4 sm:py-2 bg-green-600 shadow flex-column">
+      <div className="mx-auto py-4 sm:py-2 bg-green-600 lg:bg-green-700 shadow flex-column">
         <div className="mx-auto pb-2 sm:py-2 flex justify-center ">
           <a
             href="/recipes"
