@@ -15,7 +15,7 @@ export default function Navbar() {
     { name: "About", href: "/about", current: false },
     { name: "Calorie Counter", href: "/calorie_counter", current: false },
     { name: "Recipes", href: "/recipes", current: false },
-    { name: "Contact Us", href: "#", current: false },
+    { name: "Contact Us", href: "/contact_us", current: false },
   ];
 
   function classNames(...classes) {
@@ -140,8 +140,8 @@ export default function Navbar() {
                   <form method="POST" action="#">
                     <Menu.Item>
                       {({ active }) => (
-                        <button
-                          type="submit"
+                        <Link href="/contact_us">
+                        <a
                           className={classNames(
                             active
                               ? "bg-gray-100 text-gray-900"
@@ -150,7 +150,8 @@ export default function Navbar() {
                           )}
                         >
                           Contact Us
-                        </button>
+                        </a>
+                        </Link>
                       )}
                     </Menu.Item>
                   </form>
