@@ -5,6 +5,7 @@ import SecondaryHero from "../components/SecondaryHero";
 import { BoltIcon, GlobeAltIcon, ScaleIcon } from "@heroicons/react/24/outline";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function News() {
 
@@ -38,10 +39,11 @@ export default function News() {
 
         <div className="relative min-h-screen pb-40  bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
           <div className="absolute inset-0 overflow-hidden">
-            <img
+            <Image
               src="https://images.unsplash.com/photo-1494597564530-871f2b93ac55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGZpdG5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
               alt=""
-              className="h-full w-full object-cover object-center"
+              className=" object-cover object-center"
+              layout="fill"
             />
           </div>
           <div
@@ -55,8 +57,8 @@ export default function News() {
             </h2>
             <p className="mt-3 text-xl 2xl:text-3xl text-white">
               We know dieting can be hard. We know how important it can be to
-              shed those extra pounds right before summer. But, the journey is
-              not easy and even harder when you don't have a plan. And that's
+              shed those extra pounds right before summer. But&apos; the journey is
+              not easy and even harder when you don&apos;t have a plan. And that&apos;s
               where we come in. Figurenow provides a personally tailored plan to
               helping our clients reach their ideal bodies and live healthier
               lifestyles!
@@ -87,7 +89,7 @@ export default function News() {
               </p>
               <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
                 Search through our plans and find the best one for you. Once
-                that's done, we further tailor and build around your goals.
+                that&apos;s done, we further tailor and build around your goals.
               </p>
             </div>
 
@@ -145,8 +147,8 @@ export default function News() {
                 the right amount of calories. The right amount of
                 macronutrients. All to achieve your goals. Exercise is #2.
                 Building strength and putting that to use as the body recovers.
-                Both of these done well will lead to that transformation you're
-                looking And that's where we come in!
+                Both of these done well will lead to that transformation you&apos;re
+                looking And that&apos;s where we come in!
               </p>
             </div>
           </div>

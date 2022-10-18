@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Image from 'next/future/image';
 
 export default function MacronutrientHero({ weight }) {
   const [counter, setCounter] = useState(1);
@@ -65,10 +66,12 @@ export default function MacronutrientHero({ weight }) {
                               </div>
                           </div>
                           <div className="aspect-w-5 aspect-h-3 -mt-6 pb-6 md:pb-0 md:mt-4  md:aspect-w-2 md:pr-6 md:aspect-h-1">
-                              <img
+                              <Image
                                   className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
                                   src="https://i.imgur.com/LxKHtz4.png"
-                                  alt="App screenshot" />
+                                  alt="App screenshot"
+                                  width={500}
+                                  height={400} />
                           </div>
                       </>
                   ) : counter === 2 ? (
@@ -78,7 +81,7 @@ export default function MacronutrientHero({ weight }) {
                                   <h2 className="text-3xl font-bold tracking-tight text-gray-50 sm:text-4xl">
                                       <span className="block text-white">Carbs.</span>
                                       <span className="block">
-                                          The first macronutrient we'll cover
+                                          The first macronutrient we&apos;ll cover
                                       </span>
                                   </h2>
                                   <p className="mt-4 text-lg leading-6 text-gray-200">
@@ -95,10 +98,13 @@ export default function MacronutrientHero({ weight }) {
                               </div>
                           </div>
                           <div className="aspect-w-5 aspect-h-3 -mt-6 pb-6 md:pb-10  md:aspect-w-2 md:pr-6 md:aspect-h-1">
-                              <img
+                              <Image
                                   className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
                                   src="https://www.mdanderson.org/content/mda/en/publications/focused-on-health/june-2020/what-are-macronutrients-/jcr:content/articleparsys/adaptiveimage.resize.2888.0.high.jpg/1591112210981.jpg"
-                                  alt="App screenshot" />
+                                  alt="App screenshot"
+                                  width={500}
+                                  height={400}
+                                   />
                           </div>
                       </>
                   ) : counter === 3 ? (
@@ -126,10 +132,13 @@ export default function MacronutrientHero({ weight }) {
                               </div>
                           </div>
                           <div className="aspect-w-5 aspect-h-3 -mt-6 pb-6 md:pb-10  md:aspect-w-2 md:pr-6 md:aspect-h-1">
-                              <img
+                              <Image
                                   className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
                                   src="https://www.mdanderson.org/content/mda/en/publications/focused-on-health/june-2020/what-are-macronutrients-/jcr:content/articleparsys/adaptiveimage_1829736050.resize.2888.0.high.jpg/1591112464447.jpg"
-                                  alt="App screenshot" />
+                                  alt="App screenshot"
+                                  width={500}
+                                  height={400}
+                                   />
                           </div>
                       </>
                   ) : counter === 4 && !show ? (
@@ -149,15 +158,19 @@ export default function MacronutrientHero({ weight }) {
                                       className="mt-8 inline-flex items-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-green-600 shadow hover:bg-indigo-50"
                                       onClick={() => setShow(true)}
                                   >
-                                      Let's see numbers!
+                                      Let&apos;s see numbers!
                                   </button>
                               </div>
                           </div>
                           <div className="aspect-w-5 aspect-h-3 -mt-6 pb-6 md:pb-10  md:aspect-w-2 md:pr-6 md:aspect-h-1">
-                              <img
+                              <Image
                                   className="translate-x-6 translate-y-6 transform rounded-md object-cover object-left-top sm:translate-x-16 lg:translate-y-20"
                                   src="https://www.mdanderson.org/content/mda/en/publications/focused-on-health/june-2020/what-are-macronutrients-/jcr:content/articleparsys/adaptiveimage_962497595.resize.2888.0.high.jpg/1591112582347.jpg"
-                                  alt="App screenshot" />
+                                  alt="App screenshot"
+                                  width={500}
+                                  height={400}
+                                  />
+                                 
                           </div>
                       </>
                   ) : counter === 4 && show? (
