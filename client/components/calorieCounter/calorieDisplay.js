@@ -24,7 +24,7 @@ export default function CalorieDisplay({info, age, weight, height, activeRate, g
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-3xl font-bold tracking-tight pt-6 text-gray-900 sm:text-4xl">
-            Numbers Don't Lie.
+            Numbers Don&apos;t Lie.
           </h2>
           <p className="mt-3 text-xl text-gray-600 sm:mt-2">
             And these numbers are no exception! These numbers will give you insight to the target calories 

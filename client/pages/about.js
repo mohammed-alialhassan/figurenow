@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import { CameraIcon } from '@heroicons/react/20/solid'
+import Image from 'next/image';
 
 export default function About() {
 
@@ -32,7 +33,7 @@ export default function About() {
             <div className="relative mx-auto max-w-prose text-base lg:max-w-none">
               <figure>
                 <div className="aspect-w-12 aspect-h-7 lg:aspect-none">
-                  <img
+                  <Image
                     className="rounded-lg object-cover object-center shadow-lg"
                     src="https://i.imgur.com/AcPTRVH.jpg"
                     alt="Whitney leaning against a railing on a downtown street"
@@ -57,11 +58,9 @@ export default function About() {
               </p>
             </div>
             <div className="prose prose-indigo mx-auto mt-5 text-gray-400 lg:col-start-1 lg:row-start-1 lg:max-w-none">
-              <p>
-                Then there was me. The funds were not there to get involved in League-ran team sports. I didn't 
+              <p> Then there was me. The funds were not there to get involved in League-ran team sports. I didn&apos;t 
                 get out much and going for runs was not something I felt comfortable doing. So I was stuck, and
-                unhappy with how I looked. All I know is I wanted change.
-              </p>
+                unhappy with how I looked. All I know is I wanted change. </p>
               <p>
                 And joining the Football team that year was the start of it. It got me out and involved. And that 
                 led me to connecting with like-minded people who were also looking to 180 themselves. And that led
@@ -82,8 +81,8 @@ export default function About() {
               </p>
               <h3>How we helped</h3>
               <p>
-                I've designed this app based on the feedback and positives I've received from both
-                people in my circle and outside sources. It's designed to not only give you accurate
+                I&apos;ve designed this app based on the feedback and positives I&apos;ve received from both
+                people in my circle and outside sources. It&apos;s designed to not only give you accurate
                 numbers but also educate you. We teach you, and you share that knowledge with whoever
                 is willing to hear.
               </p>
@@ -107,11 +106,13 @@ export default function About() {
           </div>
           <div className="relative mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:px-0 lg:py-20">
             {/* Testimonial card*/}
-            <div className="relative overflow-hidden rounded-2xl pt-64 pb-10 shadow-xl">
-              <img
-                className="absolute inset-0 h-full w-full object-cover"
+            <div className="relative overflow-hidden rounded-2xl pb-6 shadow-xl">
+              <Image
+                className="absolute inset-0 object-cover"
                 src="https://i.imgur.com/h2zpyP2.jpg"
                 alt=""
+                width={560}
+                height={330}
               />
               <div className="absolute inset-0 bg-amber-300 mix-blend-multiply" />
               <div className="absolute inset-0 bg-gradient-to-t from-indigo-500 via-amber-600 opacity-90" />
@@ -119,7 +120,7 @@ export default function About() {
                 <blockquote className="mt-8">
                   <div className="relative text-lg font-medium text-white md:flex-grow">
                     <p className="relative">
-                      Every swing you take that's missed, gets you one swing closer to landing.
+                      Every swing you take that&apos;s missed, gets you one swing closer to landing.
                       Never give up.
                     </p>
                   </div>
@@ -146,12 +147,12 @@ export default function About() {
                 our daily life or things out of our control, we need to make change happen.
               </p>
               <p className="text-base leading-7">
-                And that's where Figurenow comes in! Our goal is to make bringing that change as EASY 
+                And that&apos;s where Figurenow comes in! Our goal is to make bringing that change as EASY 
                 and SIMPLE as possible. By providing pinpoint accurate numbers, pulling from multiple resources,
                 and 24/7 support. Our goal is to help you change your appearance, lifestyle, and feel on life!
               </p>
               <p className="text-base leading-7">
-                From the 1st day, we'll track progress and monitor growth overtime and where
+                From the 1st day, we&apos;ll track progress and monitor growth overtime and where
                 improvements can be made. Forget the idea of having a summer body and be ready
                 to walk around in your yearly body!
               </p>

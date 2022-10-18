@@ -12,7 +12,7 @@ export default function ContactUs() {
       }}>
         <div className="flex flex-col items-center mx-24 py-12 lg:py-20">
             
-            <iframe className="h-80 w-96 lg:w-2/5" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJadACaoBdK4gR9E6N1yfdMAM&key=AIzaSyBK2bbuyNDVon-bVkKcBCOKX-F2ztCmvDg"></iframe>
+            <iframe className="h-80 w-96 lg:w-2/5" loading="lazy" allowFullScreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJadACaoBdK4gR9E6N1yfdMAM&key=AIzaSyBK2bbuyNDVon-bVkKcBCOKX-F2ztCmvDg"></iframe>
             
             <div className="pt-6">
                 <h1 className="text-white text-2xl"> Contact Us </h1>

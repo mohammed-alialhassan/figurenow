@@ -6,6 +6,7 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import image from "../public/logo.png";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import Image from 'next/image';
 
 export default function Navbar() {
 
@@ -29,7 +30,7 @@ export default function Navbar() {
         <div className="flex justify-between">
           <Link href="/home">
             <a>
-              <img src="https://i.imgur.com/0tM7Fb7.png" className="pt-1 h-16 w-16" />
+              <Image src="https://i.imgur.com/0tM7Fb7.png" className="pt-1" alt="" width='64px' height='64px' />
             </a> 
           </Link>
           
