@@ -52,7 +52,7 @@ export default function Navbar() {
         <div className="sm:hidden block px-6 flex justify-between">
         <Link href="/home">
             <a>
-              <Image src="https://i.imgur.com/ziUFiMO.png" className="pt-1.5" alt="" width='40px' height='40px' />
+              <Image src="https://i.imgur.com/ziUFiMO.png" className="pt-1.5" alt="" width='42px' height='44px' />
             </a> 
           </Link>
 
