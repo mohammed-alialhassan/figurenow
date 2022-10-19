@@ -6,8 +6,6 @@ export default function Step3({ setWeight, settingHeight }) {
   const [feet, setFeet] = useState(0);
   const [inches, setInches] = useState(0);
 
-  console.log(weight, feet, inches);
-
   return (
     <>
       <div className="flex justify-center py-2 lg:py-4 text-3xl text-center lg:text-4xl text-white">
