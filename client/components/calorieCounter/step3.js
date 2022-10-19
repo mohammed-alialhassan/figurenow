@@ -40,7 +40,7 @@ export default function Step3({ setWeight, settingHeight }) {
                   value={weight}
                   onChange={(event) => {
                     settingWeight(event.target.value);
-                    setWeight(weight);
+                    setWeight(event.target.value); 
                   }}
                   className="block w-full py-1 lg:py-3 rounded-md border-red-300 pr-10 text-black placeholder-gray-300 focus:border-red-500 focus:outline-none focus:ring-red-500 sm:text-sm"
                   placeholder="Pounds (lbs)"
