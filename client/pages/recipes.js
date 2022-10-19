@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from "../components/Footer";
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Recipes() {
     
@@ -71,7 +72,7 @@ export default function Recipes() {
       {files.map((file) => ( 
         <li key={file.source} className="relative lg:mx-auto">
           <div className="group h-72 aspect-w-10 aspect-h-7 block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 max-h-52 md:max-h-80">
-            <img src={file.source} alt="" className=" object-cover group-hover:opacity-75"  />
+            <Image src={file.source} alt="" className=" object-cover group-hover:opacity-75"  />
             <button type="button" className="absolute inset-0 focus:outline-none">
               <span className="sr-only">View details for {file.title}</span>
             </button>
