@@ -8,7 +8,7 @@ export default function Footer() {
     <>
       <div className="mx-auto py-4 sm:py-2 bg-green-600 lg:bg-green-700 shadow flex-column">
         <div className="mx-auto pb-2 sm:py-2 flex justify-center ">
-          <Link href="/home">
+          <Link href="/recipes">
             <a className="px-2 text-xs text-gray-50 hover:text-blue-400 sm:text-sm">
               {" "}
               Recipes{" "}

@@ -15,7 +15,7 @@ export default function Navbar() {
   const navigation = [
     { name: "About", href: "/about", current: false },
     { name: "Calorie Counter", href: "/calorie_counter", current: false },
-    { name: "Recipes", href: "/calorie_counter", current: false },
+    { name: "Recipes", href: "/recipes", current: false },
     { name: "Contact Us", href: "/contact_us", current: false },
   ];
 
@@ -117,7 +117,7 @@ export default function Navbar() {
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="#"
+                        href="/recipes"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
