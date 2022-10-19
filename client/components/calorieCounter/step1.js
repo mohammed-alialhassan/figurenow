@@ -25,13 +25,13 @@ export default function Step1({ setGender }) {
             <button
               type="button"
               onClick={() => setGender(male)}
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-12 py-3 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-12 py-3 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-green-400 focus:outline-none focus:bg-amber-400 focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
             >
               Male
             </button>
             <button
               type="button"
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-12 py-3 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-12 py-3 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-green-400 focus:outline-none focus:ring-2 focus:bg-amber-400 focus:ring-amber-400 focus:ring-offset-2"
               onClick={() => setGender(female)}
             >
               Female
