@@ -27,21 +27,21 @@ export default function Step2({ setAge }) {
           <div className="flex justify-between gap-x-4 w-full px-3 lg:px-0 lg:w-9/12 pt-4">
             <button
               type="button"
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 lg:hover:bg-green-400 focus:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
               onClick={() => setAge(group1)}
             >
               11 - 20
             </button>
             <button
               type="button"
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 lg:hover:bg-green-400 focus:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
               onClick={() => setAge(group2)}
             >
               21 - 30
             </button>
             <button
               type="button"
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 lg:hover:bg-green-400 focus:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
               onClick={() => setAge(group3)}
             >
               31 - 40
@@ -52,21 +52,21 @@ export default function Step2({ setAge }) {
           <div className="flex justify-between gap-x-4 w-full px-3 lg:px-0 lg:w-9/12 pt-12">
             <button
               type="button"
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 lg:hover:bg-green-400 focus:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
               onClick={() => setAge(group4)}
             >
               41 - 50
             </button>
             <button
               type="button"
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 lg:hover:bg-green-400 focus:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
               onClick={() => setAge(group5)}
             >
               51 - 60
             </button>
             <button
               type="button"
-              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+              className="inline-flex items-center rounded border border-transparent bg-green-200 px-6 py-2 lg:px-24 lg:py-4 text-base font-medium text-green-700 hover:bg-amber-400 lg:hover:bg-green-400 focus:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
               onClick={() => setAge(group6)}
             >
               61 - 70
