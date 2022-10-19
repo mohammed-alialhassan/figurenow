@@ -91,7 +91,7 @@ export default function About() {
         </div>
       </div>
     </div>
-        <div className="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
+        <div className="mx-auto max-w-prose text-base mt-14 lg:mt-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
           <div>
             <h2 className="text-lg font-semibold text-amber-400">The Brain Behind Figurenow</h2>
             <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">Meet Ali</h3>
