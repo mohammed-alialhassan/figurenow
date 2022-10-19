@@ -116,8 +116,8 @@ export default function Navbar() {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
+                      <Link href="/recipes">
                       <a
-                        href="/recipes"
                         className={classNames(
                           active
                             ? "bg-gray-100 text-gray-900"
@@ -127,6 +127,7 @@ export default function Navbar() {
                       >
                         Recipes
                       </a>
+                      </Link>
                     )}
                   </Menu.Item>
                   <form method="POST" action="#">
