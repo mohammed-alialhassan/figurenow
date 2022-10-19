@@ -29,7 +29,7 @@ export default function CalorieDisplay({info, age, weight, height, activeRate, g
           <p className="mt-3 text-xl text-gray-600 sm:mt-2">
             And these numbers are no exception! These numbers will give you insight to the target calories 
             you want to aim for each day, along with remind you of your current weight and fitness goal. Please
-            also take the time to scroll below and learn more about Macronutrients. We've taken the time
+            also take the time to scroll below and learn more about Macronutrients. We&apos;ve taken the time
             to put together a nice introduction for you and at the end will calculate your target macros. 
           </p>
         </div>
