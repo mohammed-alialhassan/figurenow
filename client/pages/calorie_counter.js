@@ -151,22 +151,8 @@ export default function CalorieCounter() {
                     Next
                   </button>
                 </>
-              ) : (counter === 6) & !loading ? (
-                <>
-                  <button
-                    type="button"
-                    className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700"
-                  >
-                    Back
-                  </button>
-                  <button
-                    type="button"
-                    className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700"
-                  >
-                    Next
-                  </button>
-                </>
-              ) : (counter === 3) & (weight.weight === undefined) ? (
+              ) : (counter === 6) & !loading ? null : (counter === 3) &
+                (weight.weight === undefined) ? (
                 <>
                   <button
                     type="button"
