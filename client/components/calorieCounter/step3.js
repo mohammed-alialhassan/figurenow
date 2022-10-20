@@ -6,8 +6,6 @@ export default function Step3({ setWeight, settingHeight }) {
   const [feet, setFeet] = useState(0);
   const [inches, setInches] = useState(0);
 
-  console.log(weight, feet, inches);
-
   return (
     <>
       <div className="flex justify-center py-2 lg:py-4 text-3xl text-center lg:text-4xl text-white">
@@ -16,7 +14,7 @@ export default function Step3({ setWeight, settingHeight }) {
       <div className="w-full bg-gray-200">
         <div
           className="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-r-full"
-          style={{ width: "40%" }}
+          style={{ width: "40%" }} 
         >
           {" "}
           40%
@@ -37,7 +35,6 @@ export default function Step3({ setWeight, settingHeight }) {
                   type="weight"
                   name="weight"
                   id="weight"
-                  value={weight}
                   onChange={(event) => {
                     settingWeight(event.target.value);
                     setWeight(event.target.value); 
