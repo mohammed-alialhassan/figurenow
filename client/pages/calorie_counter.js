@@ -27,8 +27,6 @@ export default function CalorieCounter() {
     if (counter !== 6 && counter < 6) setCounter(counter + 1);
   };
 
-  console.log(counter);
-
   // Function is called everytime decrement button is clicked
   const handleClick2 = () => {
     if (counter !== 1 && counter > 1) {
@@ -174,6 +172,36 @@ export default function CalorieCounter() {
                     Next
                   </button>
                 </>
+              ) : counter === 3 & weight.weight === undefined? (
+
+                <><button
+                      type="button"
+                      className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                      onClick={handleClick2}
+                    >
+                      Back
+                    </button><button
+                      type="button"
+                      className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                      
+                    >
+                        Next
+                      </button></>
+              )  : counter === 3 & height.height === undefined? (
+
+                <><button
+                      type="button"
+                      className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                      onClick={handleClick2}
+                    >
+                      Back
+                    </button><button
+                      type="button"
+                      className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                      
+                    >
+                        Next
+                      </button></>
               ) : (
                 <>
                   <button
