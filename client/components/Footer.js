@@ -36,7 +36,7 @@ export default function Footer() {
               About{" "}
             </a>
           </Link>
-          <Link href="/home">
+          <Link href="/community_guidelines">
             <a className="px-2 text-xs text-gray-50 hover:text-blue-400  text-center sm:text-sm">
               {" "}
               Community Guidelines{" "}
