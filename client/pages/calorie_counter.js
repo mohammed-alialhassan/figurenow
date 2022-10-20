@@ -73,7 +73,6 @@ export default function CalorieCounter() {
       let bmr = calories * activeRate.activeRate;
       let targetCalories = Math.round(bmr * goal.goal);
       setBose({ calories: targetCalories });
-      console.log("target calorie: ", targetCalories);
     } else if (info.gender === "Female") {
       let netWeight = 9.563 * Math.round(weight.weight);
       let netHeight = 1.85 * Math.round(height.height);
@@ -82,19 +81,14 @@ export default function CalorieCounter() {
       let bmr = calories * activeRate.activeRate;
       let targetCalories = Math.round(bmr * goal.goal);
       setBose({ calories: targetCalories });
-      console.log("target calorie: ", targetCalories);
     }
   };
 
   if (loading) {
-    console.log(info, info.gender, bose.calories);
-
     setTimeout(() => {
       setLoading(false);
     }, 3500);
   }
-
-  console.log(info, age, weight, height, activeRate, goal, loading);
 
   return (
     <>
@@ -172,36 +166,38 @@ export default function CalorieCounter() {
                     Next
                   </button>
                 </>
-              ) : counter === 3 & weight.weight === undefined? (
-
-                <><button
-                      type="button"
-                      className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
-                      onClick={handleClick2}
-                    >
-                      Back
-                    </button><button
-                      type="button"
-                      className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
-                      
-                    >
-                        Next
-                      </button></>
-              )  : counter === 3 & height.height === undefined? (
-
-                <><button
-                      type="button"
-                      className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
-                      onClick={handleClick2}
-                    >
-                      Back
-                    </button><button
-                      type="button"
-                      className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
-                      
-                    >
-                        Next
-                      </button></>
+              ) : (counter === 3) & (weight.weight === undefined) ? (
+                <>
+                  <button
+                    type="button"
+                    className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                    onClick={handleClick2}
+                  >
+                    Back
+                  </button>
+                  <button
+                    type="button"
+                    className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  >
+                    Next
+                  </button>
+                </>
+              ) : (counter === 3) & (height.height === undefined) ? (
+                <>
+                  <button
+                    type="button"
+                    className="inline-flex items-center rounded border border-transparent bg-green-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-green-700 hover:bg-amber-400 focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                    onClick={handleClick2}
+                  >
+                    Back
+                  </button>
+                  <button
+                    type="button"
+                    className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                  >
+                    Next
+                  </button>
+                </>
               ) : (
                 <>
                   <button
