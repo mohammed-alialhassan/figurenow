@@ -1,8 +1,8 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Image from "next/future/image";
 
-export default function CommunityGuidelines() {
-
+export default function ApiPage() {
   return (
     <>
       <Navbar />
@@ -15,59 +15,40 @@ export default function CommunityGuidelines() {
         <div className="mx-6 md:mx-auto mt-6 max-w-5xl flex-col text-center">
           <h1 className="text-white font-semibold text-3xl md:text-5xl">
             {" "}
-            Welcome to Figurenow{" "}
+            Our API{" "}
           </h1>
           <div className="py-4">
             <p className="text-gray-300 text-base md:text-lg text-left md:text-center">
-              Welcome to Figurenow! We want our clients to feel like this is a
-              safe, friendly, supportive site for people focused on living
-              better and healthier lives. We have a variety of categories you
-              can participate in, ranging from sharing Success Stories to asking
-              about Food and Nutrition to Fitness and Exercise and more. Please
-              keep in mind that our message boards are public, and when you make
-              something publicly available on the web, it becomes practically
-              impossible to take down all copies of it in the future.
+              Thank you for your interest in Figurenow! As you can see,
+              we&apos;re still in our initial phase and as such still have some
+              growing pains to get over... Like, publicly releasing our API. We
+              appreciate the support and will hopefully have an update soon as
+              to when it will be Third-Party friendly. Until then, we have
+              suggestions for alternative solutions below.
             </p>
           </div>
-          
 
-          
-          <h3 className="text-gray-100 text-3xl pt-2">
+          <h3 className="text-gray-100 font-semibold text-3xl pt-4">
             {" "}
-            Violating Guidelines{" "}
+            Some other methods...{" "}
           </h3>
           <div className="py-2">
             <p className="text-gray-300 text-base md:text-lg text-left md:text-center">
-              Please note we reserve the right to delete or lock posts and
-              discussions, to disable the posting privileges of any member, or
-              to deny anyone use of our site at any time, for any reason, at our
-              discretion without warning or notice. We reserve the right to
-              dismiss a reported post if we find it does not violate a
-              guideline. It is vital that everyone in the community understands
-              and agrees to these guidelines for us to nourish a friendly and
-              supportive community. We know this is a unique place. You
-              can&apos;t say whatever you want here, even when someone is wrong.
-              We insist that you consider your impact on other people and our
-              community when you post. This isn&apos;t everyone&apos;s style,
-              and this won&apos;t be the right community for everyone.
+              The best alternative we could remind would be using the
+              MyFitnessPal API. Our research and build is similar to their own
+              and there's a reason they are (currently) the go-to for fitness
+              tracking. Noom is also another great option as well, they
+              specialize in Intermittent Fasting.
             </p>
           </div>
-
-          <h3 className="text-gray-100 text-3xl pt-2 py-2"> Our Guidelines </h3>
-<p className="text-gray-300 text-base md:text-lg text-left md:text-center">
-            We have established the following guidelines which we ask all of our
-            members to follow. We strongly feel that posts or actions
-            disregarding these guidelines jeopardize the supportive atmosphere
-            of this app. Use of Figurenow is subject to these Community
-            Guidelines and our Terms of Service.
-          </p>
-
-          <p className="text-gray-300 py-4 pb-12 text-base md:text-xl text-left md:text-center">
-            1. Treat others with dignity, compassion and respect 2. No Trolling
-            3. Keep your images Workplace Friendly 4. Keep your language Workplace Friendly (no swearing, slurs, etc.).
-            5. We WILL NOT tolerate the promotion of Unsafe Weight-Loss Techniques or Eating Disorders 6. We WILL NOT tolerate the distribution of ANYONE&apos;s private information
-            7. Keep it legal 8. Have Fun!
-          </p>
+          <div className="flex mx-auto max-w-5xl pt-8 md:pt-6 justify-center">
+            <Image
+              src="https://images.unsplash.com/photo-1541380698175-fd5ae39d5e28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
+              className="outline outline-1 outline-black"
+              width={420}
+              height={420}
+            />
+          </div>
         </div>
       </div>
       <Footer />

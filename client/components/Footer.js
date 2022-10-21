@@ -42,7 +42,7 @@ export default function Footer() {
               Community Guidelines{" "}
             </a>
           </Link>
-          <Link href="/home">
+          <Link href="/api_page">
             <a className="px-2 text-xs text-gray-50 hover:text-blue-400  sm:text-sm">
               {" "}
               API{" "}
