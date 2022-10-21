@@ -36,7 +36,7 @@ export default function ApiPage() {
             <p className="text-gray-300 text-base md:text-lg text-left md:text-center">
               The best alternative we could remind would be using the
               MyFitnessPal API. Our research and build is similar to their own
-              and there's a reason they are (currently) the go-to for fitness
+              and there&apos;s a reason they are (currently) the go-to for fitness
               tracking. Noom is also another great option as well, they
               specialize in Intermittent Fasting.
             </p>
@@ -45,6 +45,7 @@ export default function ApiPage() {
             <Image
               src="https://images.unsplash.com/photo-1541380698175-fd5ae39d5e28?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
               className="outline outline-1 outline-black"
+              alt="sorry note"
               width={420}
               height={420}
             />
