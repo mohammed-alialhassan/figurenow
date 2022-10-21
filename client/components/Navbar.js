@@ -62,7 +62,7 @@ export default function Navbar() {
           </h1>
           <Menu as="div" className="relative inline-block text-left">
             <div>
-              <Menu.Button className="flex pt-1.5 items-center rounded-full text-gray-400 hover:text-gray-600 ">
+              <Menu.Button className="flex pt-1 items-center rounded-full text-gray-400 hover:text-gray-600 ">
                 <Bars3Icon
                   className="w-10 h-10 stroke-gray-300 hover:stroke-amber-300"
                   fill="none"
