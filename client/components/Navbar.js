@@ -30,7 +30,7 @@ export default function Navbar() {
         <div className="flex justify-between">
           <Link href="/home">
             <a>
-              <Image src="https://i.imgur.com/0tM7Fb7.png" className="pt-1" alt="" width='64px' height='64px' />
+              <Image src="https://i.imgur.com/0tM7Fb7.png" className="pt-1" alt="" width='66px' height='64px' />
             </a> 
           </Link>
           
