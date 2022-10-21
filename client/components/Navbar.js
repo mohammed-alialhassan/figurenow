@@ -56,7 +56,7 @@ export default function Navbar() {
             </a> 
           </Link>
 
-          <h1 className="text-white pl-2 py-2 text-3xl font-bold">
+          <h1 className="text-white pl-2 py-2 text-2xl font-bold">
             {" "}
             Figurenow{" "}
           </h1>
