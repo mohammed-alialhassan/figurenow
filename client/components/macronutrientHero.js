@@ -68,7 +68,7 @@ export default function MacronutrientHero({ weight }) {
                         The OTHER numbers you should know about!
                       </span>
                     </h2>
-                    <p className="mt-4 text-lg leading-6 text-gray-200">
+                    <p className="mt-4 text-lg leading-6 text-gray-600">
                       Macronutrients are the nutrients we need in larger
                       quantities that provide us with energy. And there are 3
                       groups of them that we will break down: Carbs, proteins
@@ -103,7 +103,7 @@ export default function MacronutrientHero({ weight }) {
                         The first macronutrient we&apos;ll cover
                       </span>
                     </h2>
-                    <p className="mt-4 text-lg leading-6 text-gray-200">
+                    <p className="mt-4 text-lg leading-6 text-gray-600">
                       Carbohydrates – or carbs – are the body’s primary fuel.
                       They provide energy for your muscles and the central
                       nervous system during movement and exercise.
@@ -136,7 +136,7 @@ export default function MacronutrientHero({ weight }) {
                         The building blocks of muscles
                       </span>
                     </h2>
-                    <p className="mt-4 text-lg leading-6 text-gray-200">
+                    <p className="mt-4 text-lg leading-6 text-gray-600">
                       Protein is essential to many processes in the body. It
                       provides structure to the tissue. That includes cell
                       membranes, organs, muscle, hair, skin, nails, bones,
@@ -168,7 +168,7 @@ export default function MacronutrientHero({ weight }) {
                       <span className="block text-white">Fats.</span>
                       <span className="block">Yes, we need those too!</span>
                     </h2>
-                    <p className="mt-4 text-lg leading-6 text-gray-200">
+                    <p className="mt-4 text-lg leading-6 text-gray-600">
                       Fat is vital for the body as an energy reserve, for
                       insulation and protection of your organs, and for
                       absorption and transport of fat-soluble vitamins.

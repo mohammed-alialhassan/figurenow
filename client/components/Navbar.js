@@ -48,7 +48,7 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-      <div className="mx-auto py-2 sm:py-3 sm:px-4 lg:px-2 bg-green-600 lg:bg-green-700 shadow">
+      <div className="mx-auto py-2.5 sm:py-3 sm:px-4 lg:px-2 bg-green-600 lg:bg-green-700 shadow">
         <div className="sm:hidden block px-6 flex justify-between">
         <Link href="/home">
             <a>
