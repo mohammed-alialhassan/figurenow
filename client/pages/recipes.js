@@ -8,9 +8,7 @@ import { useRouter } from 'next/router';
 export default function Recipes() {
 
   const router = useRouter();
-
   const searchTarget = router.query.data;
-  console.log("Hold my ", searchTarget);
 
   const handleClick = (url) => {
     window.open(url);

@@ -23,7 +23,6 @@ export default function LandingHero() {
           "recipes"
         )
       }, [2500])
-     // console.log(search);
     }
   },[clicked])
 

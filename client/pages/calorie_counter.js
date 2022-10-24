@@ -135,7 +135,7 @@ export default function CalorieCounter() {
 
           <div className="flex justify-center">
             <div className="flex gap-x-3 justify-center lg:gap-x-0.5 w-8/12 lg:w-4/12 rounded bg-inherit">
-              {counter === 1 || (counter === 6) & loading ? (
+              {(counter === 1 && info.gender !== undefined) || (counter === 6) & loading ? (
                 <>
                   <button
                     type="button"
@@ -168,7 +168,21 @@ export default function CalorieCounter() {
                     Next
                   </button>
                 </>
-              ) : (counter === 3) & (height.height === undefined) ? (
+              ) : (counter === 1) & (info.gender === undefined) ? (
+                <><button
+                      type="button"
+                      className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700"
+                    >
+                      Back
+                    </button><button
+                      type="button"
+                      className="inline-flex items-center rounded border border-transparent bg-gray-100 px-6 py-2 lg:px-10 lg:py-3 text-xs font-medium text-gray-700  focus:outline-none focus:ring-2 focus:ring-amber-400 focus:ring-offset-2"
+                    >
+                        Next
+                      </button></>
+
+              ) : 
+              ((counter === 2) & (age.age === undefined)) || ((counter === 3) & (height.height === undefined)) || (counter === 4) & (activeRate.activeRate === undefined) || ((counter === 5) & (goal.goal === undefined))  ? (
                 <>
                   <button
                     type="button"
