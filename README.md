@@ -1,6 +1,8 @@
 ## Say Hello to FigureNow
 
-!["Homepage"](https://github.com/mohammed-alialhassan/figurenow/blob/4e0b055f80e5960fd8964581f9aaab7e17f0997a/docs/homepage.mov)
+!["Homepage"](https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/homeview.png?raw=true)
+
+https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/homepage.mov?raw=true
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
