@@ -137,7 +137,7 @@ export default function News() {
         >
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="mx-auto max-w-4xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="text-3xl lg:text-4xl font-bold tracking-tight text-white sm:text-4xl">
                 The recipe and blueprint for success
               </h2>
               <p className="mt-3 text-base sm:text-xl text-gray-500 sm:mt-4">

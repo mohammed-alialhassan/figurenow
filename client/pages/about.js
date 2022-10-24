@@ -74,12 +74,12 @@ export default function About() {
                 change, the steps needed to bring it is sometimes not as simple. Whether that be because
                 our daily life or things out of our control, we need to make change happen.
               </p>
-              <p className="text-base leading-7">
+              <p className="text-lg leading-7">
                 And that&apos;s where Figurenow comes in! Our goal is to make bringing that change as EASY 
                 and SIMPLE as possible. By providing pinpoint accurate numbers, pulling from multiple resources,
                 and 24/7 support. Our goal is to help you change your appearance, lifestyle, and feel on life!
               </p>
-              <p className="text-base leading-7">
+              <p className="text-lg leading-7">
                 From the 1st day, we&apos;ll track progress and monitor growth overtime and where
                 improvements can be made. Forget the idea of having a summer body and be ready
                 to walk around in your yearly body!
@@ -127,7 +127,7 @@ export default function About() {
                 of way to keep in shape.
               </p>
             </div>
-            <div className="prose prose-indigo mx-auto mt-5 text-gray-400 lg:col-start-1 lg:row-start-1 lg:max-w-none">
+            <div className="prose prose-indigo text-lg mx-auto mt-5 text-gray-400 lg:col-start-1 lg:row-start-1 lg:max-w-none">
               <p> Then there was me. The funds were not there to get involved in League-ran team sports. I didn&apos;t 
                 get out much and going for runs was not something I felt comfortable doing. So I was stuck, and
                 unhappy with how I looked. All I know is I wanted change. </p>
@@ -149,7 +149,6 @@ export default function About() {
                 I hope that sharing the obstacles I went to and how I overcame them in hopes 
                 that it may make this journey easier for you.
               </p>
-              <h3>How we helped</h3>
               <p>
                 I&apos;ve designed this app based on the feedback and positives I&apos;ve received from both
                 people in my circle and outside sources. It&apos;s designed to not only give you accurate
