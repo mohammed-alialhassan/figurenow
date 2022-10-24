@@ -24,7 +24,7 @@ export default function Footer() {
             </a>
           </Link>
           <a
-            href="/counter"
+            href="/calorie_counter"
             className="px-2 text-xs text-gray-50 hover:text-blue-400  text-center sm:text-sm"
           >
             {" "}

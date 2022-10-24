@@ -18,7 +18,7 @@ export default function CommunityGuidelines() {
             Welcome to Figurenow{" "}
           </h1>
           <div className="py-4">
-            <p className="text-gray-300 text-base md:text-lg text-left md:text-center">
+            <p className="text-gray-400 text-base md:text-lg text-left md:text-center">
               Welcome to Figurenow! We want our clients to feel like this is a
               safe, friendly, supportive site for people focused on living
               better and healthier lives. We have a variety of categories you
@@ -32,12 +32,12 @@ export default function CommunityGuidelines() {
           
 
           
-          <h3 className="text-gray-100 text-3xl pt-2">
+          <h3 className="text-gray-100 font-semibold text-3xl pt-2">
             {" "}
             Violating Guidelines{" "}
           </h3>
           <div className="py-2">
-            <p className="text-gray-300 text-base md:text-lg text-left md:text-center">
+            <p className="text-gray-400 text-base md:text-lg text-left md:text-center">
               Please note we reserve the right to delete or lock posts and
               discussions, to disable the posting privileges of any member, or
               to deny anyone use of our site at any time, for any reason, at our
@@ -53,8 +53,8 @@ export default function CommunityGuidelines() {
             </p>
           </div>
 
-          <h3 className="text-gray-100 text-3xl pt-2 py-2"> Our Guidelines </h3>
-<p className="text-gray-300 text-base md:text-lg text-left md:text-center">
+          <h3 className="text-gray-100 font-semibold text-3xl pt-2 py-2"> Our Guidelines </h3>
+<p className="text-gray-400 text-base md:text-lg text-left md:text-center">
             We have established the following guidelines which we ask all of our
             members to follow. We strongly feel that posts or actions
             disregarding these guidelines jeopardize the supportive atmosphere
@@ -62,7 +62,7 @@ export default function CommunityGuidelines() {
             Guidelines and our Terms of Service.
           </p>
 
-          <p className="text-gray-300 py-4 pb-12 text-base md:text-xl text-left md:text-center">
+          <p className="text-gray-400 py-4 pb-12 text-base md:text-xl text-left md:text-center">
             1. Treat others with dignity, compassion and respect 2. No Trolling
             3. Keep your images Workplace Friendly 4. Keep your language Workplace Friendly (no swearing, slurs, etc.).
             5. We WILL NOT tolerate the promotion of Unsafe Weight-Loss Techniques or Eating Disorders 6. We WILL NOT tolerate the distribution of ANYONE&apos;s private information
