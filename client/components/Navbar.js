@@ -49,7 +49,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="mx-auto py-2.5 sm:py-3 sm:px-4 lg:px-2 bg-green-600 lg:bg-green-700 shadow">
-        <div className="sm:hidden block px-6 flex justify-between">
+        <div className="sm:hidden px-6 flex justify-between">
         <Link href="/home">
             <a>
               <Image src="https://i.imgur.com/ziUFiMO.png" className="pt-1.5" alt="" width='46px' height='44px' />
