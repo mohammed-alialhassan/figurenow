@@ -23,13 +23,14 @@ export default function Footer() {
               Exercises{" "}
             </a>
           </Link>
-          <a
-            href="/calorie_counter"
+          <Link href="/calorie_counter">
+            <a
             className="px-2 text-xs text-gray-50 hover:text-blue-400  text-center sm:text-sm"
           >
             {" "}
             Calorie Counter
-          </a>
+            </a>
+          </Link>
           <Link href="/about">
             <a className="px-2 text-xs text-gray-50 hover:text-blue-400 sm:text-sm">
               {" "}
