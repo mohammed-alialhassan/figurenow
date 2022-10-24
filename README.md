@@ -3,6 +3,7 @@
 #### Homepage
 !["Homepage"](https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/homeview.png?raw=true)
 
+Figurenow IS OFFICIALLY LIVE!!! Give it a try here: https://figurenow.vercel.app/
 ## Getting Started
 
 First, cd into the client repo and run:
