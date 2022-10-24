@@ -1,28 +1,48 @@
 ## Say Hello to FigureNow
 
+#### Homepage
 !["Homepage"](https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/homeview.png?raw=true)
-
-https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/homepage.mov?raw=true
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+First, cd into the client repo and run:
 
 ```bash
-npm run dev
+npm install
 # or
-yarn dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then run the command to build the production server:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+npm run build
+# or 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+yarn run build
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+And finally run:
+
+npm run start
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result and enjoy!
+
+#### About Page
+!["About page"](https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/about.png?raw=true)
+
+#### Calorie Tracker
+!["Calorie Tracker"](https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/calorie_counter.png?raw=true)
+
+#### Macronutrient Calculator
+!["Macronutrient Display"](https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/macronutrient_display.png?raw=true)
+
+## The Process
+
+Starting the development of this app about 3 weeks ago, my goal was to first build the look of the app out and add the 
+functionality as I went. I made it a priority for the app to be as responsive as possible and Xcode was a great tool for
+that. It gave me the ability to run iOS simulator and build both the mobile and desktop viewports at the same time.
+I also used Jira Confluence to track issues and bugs along with track progress.
+
+!["Jira Tracking"](https://github.com/mohammed-alialhassan/figurenow/blob/main/docs/jira_tracking.png?raw=true)
 
 ## Learn More
 
