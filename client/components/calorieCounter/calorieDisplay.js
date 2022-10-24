@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function CalorieDisplay({info, age, weight, height, activeRate, goal}) {
 
-    let displayWeight = Math.round(weight.weight * 2.23);
+    let displayWeight = Math.round((weight.weight * 2.23) - 1 );
 
     
     let netWeight = 13.75 * Math.round(weight.weight);
