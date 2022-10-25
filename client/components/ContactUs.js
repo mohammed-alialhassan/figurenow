@@ -68,8 +68,10 @@ export default function ContactUs() {
                   </div>
                 </dl>
               </div>
+              <p className="mt-2 text-base text-gray-500"> Have some feedback for us? Click here to send us your thoughts! </p>
             </div>
           </div>
+
         </div>
       </div>
     </div>

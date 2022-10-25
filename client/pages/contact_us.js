@@ -2,6 +2,7 @@
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import FeedbackForm from "../components/feedbackForm";
 
 export default function ContactUs() {
 
@@ -30,7 +31,7 @@ export default function ContactUs() {
                 <dl className="mt-2 text-base text-gray-300">
                   <div>
                     <dt className="sr-only">Email</dt>
-                    <dd>figurnowTO@gmail.com</dd>
+                    <dd>figurenowTO@gmail.com</dd>
                   </div>
                   <div className="mt-1">
                     <dt className="sr-only">Phone number</dt>
@@ -84,6 +85,7 @@ export default function ContactUs() {
                 </dl>
               </div>
             </div>
+            <FeedbackForm />
           </div>
         </div>
       </div>
