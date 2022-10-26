@@ -1,4 +1,10 @@
+import { useRouter } from "next/router";
+import Link from "next/link";
+
 export default function ContactUs() {
+
+  const router = useRouter();
+
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-6">
@@ -68,7 +74,11 @@ export default function ContactUs() {
                   </div>
                 </dl>
               </div>
-              <p className="mt-2 text-base text-gray-500"> Have some feedback for us? Click here to send us your thoughts! </p>
+              <Link href="/contact_us">
+                <a className="text-base text-center lg:text-left text-gray-500">
+                Have some feedback for us? Click here to send us your thoughts!
+                </a>
+              </Link>
             </div>
           </div>
 
