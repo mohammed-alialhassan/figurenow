@@ -223,8 +223,11 @@ export default function CalorieCounter() {
         {(counter === 6) & !loading ? (
           <MacronutrientHero weight={weight} />
         ) : null}
-        <Footer />
+        
       </main>
+      <footer className="w-full">
+        <Footer />
+      </footer>
     </>
   );
 }
