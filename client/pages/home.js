@@ -34,7 +34,7 @@ export default function News() {
 
   return (
     <>
-      <main>
+      <main className="min-w-min">
         <Navbar />
 
         <div className="relative min-h-screen pb-40  bg-gray-800 py-32 px-6 sm:py-40 sm:px-12 lg:px-16">
